@@ -1,0 +1,21 @@
+@import 'reset';
+
+a {
+    cursor: pointer;
+}
+
+.k-border {
+    @include k-border;
+  }
+  
+  .k-border-debug {
+    @include k-border-debug;
+  
+    background-color: $dandy;
+  }
+.grid {
+    display: grid;
+    grid-template-columns: 80% auto 25px;
+    align-items: center;
+    margin-bottom: 5vh;
+}
